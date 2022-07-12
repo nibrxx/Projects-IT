@@ -1,0 +1,22 @@
+package Studentdatabase;
+
+public class StudentManagement {
+
+	public static void main(String[] args) {
+		Student stu1= new Student();
+		stu1.enroll();
+		stu1.payTuition();
+		
+		// To add how many users we want
+		
+		//  Create n number of new Students
+		System.out.println(stu1.toString());
+		
+		
+		
+		
+		
+
+	}
+
+}
